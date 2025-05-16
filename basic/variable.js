@@ -16,3 +16,7 @@ console.log(cityname);
  console.log(acname);
  console.log(Email);
  console.log(cityname);
+ /* 
+ null object hai 
+ undefine ek datatype hai.
+ */ 

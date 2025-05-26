@@ -67,7 +67,6 @@ const user ={
 
 const addTwo = (num1, num2) => (num1 + num2)
 
-  
 
 console.log(addTwo(57,67));
 
@@ -76,12 +75,36 @@ console.log(addTwo(57,67));
 //()() mtlb first use raipe function 2nd is exicute funtion
 
 (function greet(){
-  console.log(`YES understood`)
+  //console.log(`YES understood`)
 })();// ; impt
 
 
 (
   () => {
-    console.log(`YES ,understood`);
+   // console.log(`YES ,understood`);
   }
 )();
+
+
+
+//for off loop
+
+const arr =[1,2,3,4,5,65];
+for (const i of arr) {
+  //console.log(i);
+}
+
+const greeting="hello";
+for (const i of greeting) {
+  //console.log(i);
+}
+
+
+// maps
+const map=new Map();
+map.set('IN',"India");
+map.set('FR',"France");
+map.set('IT',"Itli");
+map.set('IN',"India");
+
+console.log(map);

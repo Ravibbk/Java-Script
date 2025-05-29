@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Dom | topic</title>
+</head>
+<body>
+  <input type="password" id="pass">
+  <button onclick="showhidePassword()" id="btn">show</button>
+</body>
+<script>
+let password=document.getElementById('pass');
+let btn=document.getElementById('btn');
+function showhidePassword(){
+   if(btn.innerHTML==="show"){
+    password.type="text";
+    btn.innerText="hide";
+   }
+   else{
+    password.type="password";
+    btn.innerText="show";
+   }
+}
+</script>
+</html>
